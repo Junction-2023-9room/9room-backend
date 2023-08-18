@@ -20,6 +20,7 @@ app.add_middleware(
     allow_headers=["*"],  # Allow all headers
 )
 
+
 @app.get("/")
 def read_root():
     return {"Junction?": "9room!"}
